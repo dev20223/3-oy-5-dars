@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(247deg, #3D3D3D 17.02%, #252525 98.79%);
+}
+
+header{
+    width: 1110px;
+    height: 42px;
+    flex-shrink: 0;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 320px;
+    margin-top: 65px;
+    margin-right: -180px;
+    
+}
+
+.header__container .logo img{
+    margin-right: 6px;
+
+    
+
+}
+
+.header__container .logo a{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-decoration: none;
+    color: #EEE9DB;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header__container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-left: 483px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.header__container nav a{
+    justify-content: space-between;
+    text-decoration: none;
+    flex-direction: column;
+    color: #EEE9DB;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: all 0.5s;
+
+}
+
+.header__container nav a:hover{
+    color: rgb(235, 195, 121);
+}
+
+
+.auth .buttons{
+    margin-left: 50px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    width: 130px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #EEE9DB;
+    background: linear-gradient(247deg, #3D3D3D 17.02%, #252525 98.79%);
+
+}
+
+.auth a{
+    text-decoration: none;
+    color:  #ffffff;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+
+    /* Label / Medium Label */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+
+    padding: 13px 48px;
+    border-radius: 8px;
+
+    transition:all 0.5s;
+}
+.auth a:hover{
+    background-color:#ebcd49 ;
+    color: white;
+
+}
+
+.hero__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.hero-text{
+    margin-top: 180px;
+    margin-bottom: 446px;
+    margin-left: 165px;
+    margin-right: 775px;
+}
+
+.hero-text h1{
+    width: 500px;
+    color: #EEE9DB;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-text p{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 500px;
+    color: #EEE9DB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-text button{
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F2C034;
+    transition: all 0.5s;
+}
+
+.hero-text button h3{
+    color: #282828;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hero-text button:hover{
+    background: #ffffff;
+    color: #ebcd49;
+}
+
+.hero-logo img{
+    margin-top: -300px;
+    margin-bottom: 48px;
+    margin-left: -1398px;
+    margin-right: -700px;
+    width: 1398px;
+    height: 819px;
+    flex-shrink: 0;
+}
